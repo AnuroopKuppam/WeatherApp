@@ -20,3 +20,8 @@ and the ```DetailActivity```.
   objects.
 3. Make it more user friendly by allowing the user to enter the city name and country rather than ZIP/PIN code and saving
 the preferences.
+
+######Thoughts
+Android development draws heavy parallels to the **MVC** design paradigm. The *activities* can be thought as equivalent to
+the *controllers* and  as every *controller* has a corresponding *view* associated with it so does each activity defined
+as ```layout``` in XML. But Android emphasizes heavily on the *lifecycle* of each activity to prevent overuse of memory.
